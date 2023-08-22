@@ -50,7 +50,7 @@ export default function TextForm(props) {
                 <button className="btn btn-primary my-3 mx-2" onClick={handleClearText} >Clear Text</button>
                 <button className="btn btn-primary my-3 mx-2" onClick={handleCopy} >Copy Text</button>
                 <div>
-                    <p>{"Number of words : " + text.split(" ").filter((element) => {return element != 0 }).length}</p>
+                    <p>{"Number of words : " + text.split(" ").filter((element) => { return element != 0 }).length}</p>
                     <p>{"Number of characters : " + text.length}</p>
                 </div>
             </div>
